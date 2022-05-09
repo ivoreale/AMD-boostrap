@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.enlaces {
+    color: white;
+}
+.enlaces:hover {
+    color: white;
+}
+.parrafos-titulo {
+    color: white;
+    padding-bottom: 20px;
+}
+#titulo {
+    font-size: 33px;
+    color: white;
+}
+.bg-banner {
+    background: rgba(0, 0, 0, 0.5);
+}
+#fondo-banner {
+    background-image: url(../images/golden-black-waves-dark-wallpaper-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.botones {
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 12px;
+    margin-top: 15px;
+}
+.botones:hover {
+    background-color: grey;
+}
+.botones2 {
+    font-weight: 700;
+    background-color: white;
+    border: 2px solid black;
+    padding: 12px;
+    margin-top: 15px;
+}
+.botones2:hover {
+    background-color: black;
+    color: white;
+    
+}
+.botones3 {
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 12px;
+    margin-top: 15px;
+}
+.botones3:hover {
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.45);
+}
+
+
+#grid {
+    display: flex;
+    gap: 100px;
+    padding-left: 50px;    
+}
+
+#section3 {
+    background-color: lightgray;
+}
+.padding-section5 {
+    padding-top: 100px;
+}
+.section-gradient {
+    background: rgb(74,1,1);
+background: linear-gradient(90deg, rgba(74,1,1,1) 15%, rgba(223,6,32,1) 50%, rgba(79,1,1,1) 78%);
+}
